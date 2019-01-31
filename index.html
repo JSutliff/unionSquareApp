@@ -1,55 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <title>Union Square Explorer SF</title>
-</head>
-<body>
-  <!-- NavBar -->
-  <nav class="navBar">
-    <span class="open-slide">
-      <a href="#" onclick="openSlideMenu()">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Union Square Explorer SF</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navBar">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
           <svg width="30" height="30">
-              <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
-              <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
-              <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+            <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
+            <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
+            <path d="M0,23 30,23" stroke="#000" stroke-width="5" />
           </svg>
-      </a>
-    </span>
-    <h2>Union Square Explorer SF</h2>
-  </nav>
-  <!-- End Nav -->
+        </a>
+      </span>
+      <h2>Union Square Explorer SF</h2>
+    </nav>
+    <!-- End Nav -->
 
-  <!-- Main Content -->
-  <div id="side-menu" class="side-nav">
-    <a href="#" class=btn-close onclick="closeSlideMenu()">&times;</a>
-    <a href="#">Home</a>
-    <a href="#">My Spots</a>
-    <a href="#">Shopping</a>
-    <a href="#">Before You Go</a>
-    <a href="#">Local Tips</a>
-    <a href="#">Other Stores</a>
-    <a href="#">Search</a>
-  </div>
-
-  <div id="main">
-    <div class="imgContainer">
-      <img src="https://images.unsplash.com/photo-1542838077-7fb322b21b80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80" alt="">
-      <img src="https://images.unsplash.com/photo-1522021949359-515660151184?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80" alt="">
-      <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="">
+    <!-- Main Content -->
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <a href="#">Home</a> 
+      <a href="#">My Spots</a> 
+      <a href="#">Shopping</a>
+      <a href="#">Before You Go</a> 
+      <a href="#">Local Tips</a>
+      <a href="#">Other Stores</a> 
+      <a href="#">Search</a>
     </div>
-  </div>
 
-  <hr>
+    <div id="main">
+      <div class="imgContainer">
+        <img
+          src="https://images.unsplash.com/photo-1542838077-7fb322b21b80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80"
+          alt=""
+        />
+        <img
+          src="https://images.unsplash.com/photo-1522021949359-515660151184?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=642&q=80"
+          alt=""
+        />
+        <img
+          src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+          alt=""
+        />
+      </div>
+    </div>
 
-  
-    
+    <hr />
 
-  <!-- END CONTENT -->
-</body>
-<script src="script.js"></script>
+    <div class="buttonContainer">
+      <a href="#" class="button">Shopping</a>
+      <a href="#" class="button">Eating Out</a>
+      <a href="#" class="button">Local Tips</a>
+      <a href="#" class="button">Before You Go</a>
+      <a href="#" class="button">Maps/Parking</a>
+      <a href="#" class="button">History</a>
+    </div>
 
+    <!-- END CONTENT -->
+  </body>
+  <script src="script.js"></script>
 </html>
