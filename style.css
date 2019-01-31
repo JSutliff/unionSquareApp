@@ -1,6 +1,7 @@
 body {
   font-family: "Arial", Serif;
   background-color: #f4f4f4;
+  overflow-x: hidden;
 }
 
 .navBar {
@@ -62,3 +63,14 @@ body {
   overflow: hidden;
   width: 100%;
 }
+
+.imgContainer {
+  height: 50vh;
+  display: inline-flex;
+}
+
+img {
+  height: 100%;
+  
+}
+
