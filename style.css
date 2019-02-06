@@ -17,7 +17,7 @@ body {
   width: 50%;
 }
 
- a {
+  a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -73,7 +73,9 @@ body {
 
 .imgContainer {
   height: 50vh;
-  display: inline-flex;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 img {
@@ -89,11 +91,10 @@ img {
 }
 
 .buttonContainer {
-  display: flex;
-  flex-direction: row;
   width: 80%;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
 }
 
 .button {
