@@ -9,23 +9,23 @@
   </head>
   <body>
     <!-- NavBar -->
-  <nav class="navBar">
-    <span class="open-slide">
-      <a href="#" onclick="openSlideMenu()">
-          <svg width="30" height="30">
-              <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
-              <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
-              <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
-          </svg>
-      </a>
-    </span>
-    <h2>Union Square Explorer SF</h2>
-  </nav>
-  <!-- End Nav -->
+    <header>
+      <nav class="navBar">
+        <span class="open-slide">
+          <a href="#" onclick="openSlideMenu()">
+            <svg width="30" height="30">
+              <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
+              <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
+              <path d="M0,23 30,23" stroke="#000" stroke-width="5" />
+            </svg>
+          </a>
+        </span>
+        <h2>Union Square Explorer SF</h2>
+      </nav>
+    </header>
 
-    <!-- Main Content -->
     <div id="side-menu" class="side-nav">
-      <a href="#" class=btn-close onclick="closeSlideMenu()">&times;</a>
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
       <a href="#">Home</a>
       <a href="#">My Spots</a>
       <a href="#">Shopping</a>
@@ -34,12 +34,28 @@
       <a href="#">Other Stores</a>
       <a href="#">Search</a>
     </div>
-  
-    <div id="main">
-      <h1>Main Content</h1>
+    <!-- End Nav -->
+
+    <!-- Img Container -->
+    <div class="imgContainer">
+      <img src="https://via.placeholder.com/300" alt="">
+      <img src="https://via.placeholder.com/300" alt="">
+      <img src="https://via.placeholder.com/300" alt="">
     </div>
 
-    
+    <hr>
+
+    <!-- Main Content -->
+    <main id="main">
+      <h1>Main Content</h1>
+      <br>
+      <button class="shopping">Shopping</button>
+      <button class="eating">Eating Out</button>
+      <button class="before">Before You Go</button>
+      <button class="tips">Local Tips</button>
+      <button class="maps">Maps/Parking</button>
+      <button class="history">History</button>
+    </main>
   </body>
   <script src="script.js"></script>
 </html>

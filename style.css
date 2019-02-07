@@ -1,8 +1,4 @@
-body {
-  font-family: "Arial", Serif;
-  background-color: #f4f4f4;
-}
-
+/* Nav */
 .navBar {
   background-color: #3b5998;
   overflow: hidden;
@@ -18,8 +14,6 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-
-
 
 .side-nav {
   height: 100%;
@@ -56,9 +50,37 @@ body {
   margin-left: 50px;
 }
 
+/* End Nav */
+
+/* Img Container */
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  margin: 10px;
+}
+/* End Img */
+
+/* Main Content */
+body {
+  font-family: "Arial", Serif;
+  background-color: #f4f4f4;
+}
+
 #main {
-  transition: margin-left 05.s;
   padding: 20px;
   overflow: hidden;
-  width: 100%;
+  width: 80%;
+  border: 5px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 } 
+
+button {
+  padding: 150px 150px
+}
+/* End Main */
