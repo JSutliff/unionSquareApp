@@ -1,23 +1,15 @@
 body {
   font-family: "Arial", Serif;
   background-color: #f4f4f4;
-  overflow-x: hidden;
 }
 
-.navWrapper {
-  display: flex;
-  flex-direction: column;
+.navBar {
   background-color: #3b5998;
-}
-
-.navContainer {
   overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  width: 50%;
+
 }
 
-  a {
+.navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -69,39 +61,4 @@ body {
   padding: 20px;
   overflow: hidden;
   width: 100%;
-}
-
-.imgContainer {
-  height: 50vh;
-  width: 80%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-img {
-  height: 100%;
-  
-}
-
-.buttonWrapper {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-}
-
-.buttonContainer {
-  width: 80%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  
-}
-
-.button {
-  text-decoration: none;
-  background-color: #999;
-  border: 2px solid green;
-  padding: 20px;
-  margin: 10px;
-  width: 30%;
-}
+} 
