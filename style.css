@@ -73,12 +73,13 @@ body {
   padding: 20px;
   overflow: hidden;
   width: 80%;
-  border: 5px solid black;
   margin-left: 10%;
   margin-right: 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 1vw;
 } 
+
 
 button {
   padding: 150px 150px
