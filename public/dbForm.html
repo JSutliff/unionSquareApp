@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css"
+    />
+    <script src="dbForm.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="uk-container"></div>
+    <div class="uk-container">
+      <form autocomplete="off">
+        <fieldset class="uk-fieldset">
+          <legend class="uk-legend">Database Entry Form</legend>
+          <!-- Name -->
+          <div class="uk-margin">
+            <input
+              class="uk-input"
+              type="text"
+              placeholder="Name"
+              autofocus
+              id="name"
+            />
+          </div>
+
+          <!-- Location -->
+          <div class="uk-margin">
+            <input
+              class="uk-input uk-form-width-large"
+              type="text"
+              placeholder="Address"
+              id="address"
+            />
+            <input
+              class="uk-input uk-form-width-medium"
+              type="text"
+              placeholder="Zip Code"
+              id="zipCode"
+            />
+            <input
+              class="uk-input uk-form-width-medium"
+              type="text"
+              placeholder="Phone Number"
+              id="phoneNumber"
+            />
+          </div>
+
+          <!-- Cross Streets -->
+          <div class="uk-margin">
+            <input
+              class="uk-input uk-form-width-large"
+              type="text"
+              placeholder="Cross Streets"
+              id="crossStreets"
+            />
+            <!-- Hours -->
+            <input
+              class="uk-input uk-form-width-large"
+              type="text"
+              placeholder="Hours"
+              id="hours"
+            />
+          </div>
+
+          <!-- Description -->
+          <div class="uk-margin">
+            <textarea
+              class="uk-textarea"
+              rows="5"
+              placeholder="Description"
+              id="description"
+            ></textarea>
+          </div>
+
+          <!-- URL -->
+          <div class="uk-margin ">
+            <input
+              class="uk-input uk-form-width-large"
+              type="text"
+              placeholder="Comapny URL"
+              id="companyURL"
+            />
+            <input
+              class="uk-input uk-form-width-large"
+              type="text"
+              placeholder="Image URL"
+              id="imgUrl"
+            />
+          </div>
+        </fieldset>
+        <button
+          class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
